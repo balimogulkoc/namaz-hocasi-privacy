@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Namaz Hocası · Gizlilik Politikası</title>
+<meta name="description" content="Namaz Hocası gizlilik politikası: hesap yok, reklam yok, takip yok; verilerin telefonunda kalır." />
+<style>
+  :root {
+    --bg: #f7f3ea;
+    --surface: #fffdf8;
+    --text: #1a2320;
+    --muted: #5d6762;
+    --line: #e4ddcd;
+    --accent: #1f6f5c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1513;
+      --surface: #17201c;
+      --text: #e9e6dc;
+      --muted: #a3aaa4;
+      --line: #26322d;
+      --accent: #5bbf9f;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 0 16px;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 0 72px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 6px; }
+  h2 { font-size: 20px; margin: 36px 0 10px; }
+  .date { color: var(--muted); font-size: 14px; margin-bottom: 28px; }
+  a { color: var(--accent); }
+  .box { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; margin: 20px 0; }
+  .box ul { margin: 0; padding-left: 20px; }
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 15px; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  footer { margin-top: 44px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Namaz Hocası Gizlilik Politikası</h1>
+  <p class="date">Son güncelleme: 28 Ekim 2026</p>
+
+  <p>Namaz Hocası (&laquo;uygulama&raquo;), Velaris Labs tarafından geliştirilen ezan vakti, Kur'an ve namaz öğrenme
+  uygulamasıdır. Bu politika, uygulamanın hangi verileri işlediğini ve neden işlediğini açıklar.</p>
+
+  <div class="box">
+    <strong>Kısaca</strong>
+    <ul>
+      <li>Hesap açmanız gerekmez; uygulamanın tamamı girişsiz çalışır.</li>
+      <li>Reklam, analitik ya da takip aracı kullanılmaz; verileriniz satılmaz ve reklam için paylaşılmaz.</li>
+      <li>Namaz takibi, notlar, ayarlar ve diğer kayıtlarınız yalnızca telefonunuzda saklanır.</li>
+      <li>Konumunuz vakit ve kıble hesabı için telefonda kullanılır; sunucularımıza gönderilmez.</li>
+    </ul>
+  </div>
+
+  <h2>Telefonunuzda kalan veriler</h2>
+  <p>Seçtiğiniz şehirler, vakit ve bildirim ayarları, namaz/oruç/kaza takibi, amel defteri, manevi günlük, Kur'an yer
+  imleri ve notları, hatim planları, zikir sayıları ve Hocam'a Sor sohbet geçmişi uygulamanın telefonunuzdaki
+  depolama alanında tutulur. Bu veriler bize iletilmez. "Ayarlar → Yedekle" ile oluşturduğunuz yedek dosyası
+  yalnızca sizin seçtiğiniz yere kaydedilir. Uygulamayı kaldırdığınızda bu veriler silinir.</p>
+
+  <h2>Konum</h2>
+  <p>Konum izni verirseniz, bulunduğunuz yerin koordinatları namaz vakitlerini, kıble yönünü ve uzaklığını telefonda
+  hesaplamak için kullanılır. Konum izni vermek zorunlu değildir; şehrinizi elle de seçebilirsiniz.</p>
+  <p>Aşağıdaki durumlarda koordinatlar, istenen sonucu almak için üçüncü taraf hizmetlere gönderilir ve tarafımızca
+  saklanmaz:</p>
+  <div class="table-wrap">
+  <table>
+    <tr><th>İşlem</th><th>Gönderilen</th><th>Hizmet</th></tr>
+    <tr><td>Konumun ilçe adını bulmak (telefon bulamazsa)</td><td>Yaklaşık koordinat</td><td>OpenStreetMap Nominatim</td></tr>
+    <tr><td>Yakın camileri listelemek (yalnızca açtığınızda)</td><td>Koordinat</td><td>OpenStreetMap Overpass / Nominatim</td></tr>
+    <tr><td>Şehir aramak</td><td>Yazdığınız şehir adı</td><td>Open-Meteo Geocoding</td></tr>
+  </table>
+  </div>
+  <p>Android telefonlarda konum adı öncelikle telefonun kendi konum hizmetiyle bulunur.</p>
+
+  <h2>Kur'an metni ve sesleri</h2>
+  <p>Kur'an metni, mealler, okunuş ve tecvid işaretleri alquran.cloud hizmetinden; kâri sesleri islamic.network
+  üzerinden indirilir. Bu isteklerde yalnızca hangi sûrenin istendiği iletilir. İndirilen içerik telefonda saklanır.
+  "Kur'an'da ara" özelliğinde yazdığınız kelime alquran.cloud'a gönderilir.</p>
+
+  <h2>Hocam'a Sor (yapay zekâ)</h2>
+  <p>Hocam'a Sor'a yazdığınız sorular ve o sohbetteki önceki mesajlar, yanıt üretilmesi için sunucumuza ve oradan
+  hizmet sağlayıcımız Anthropic'in Claude modeline iletilir. Soruya bağlam olsun diye bulunduğunuz şehrin adı,
+  tarih ve sıradaki vakit de eklenir; koordinatlarınız gönderilmez. Kötüye kullanımı önlemek için günlük soru sınırı
+  uygulanır; bunun için cihaza özel rastgele bir kimlik ve IP adresinin tek yönlü özeti (hash) en fazla iki gün
+  tutulur. Sohbet içerikleri sunucumuzda saklanmaz. Anthropic, gelen istekleri kendi
+  <a href="https://www.anthropic.com/legal/privacy">gizlilik politikası</a> çerçevesinde, kötüye kullanım denetimi için
+  sınırlı süre tutabilir ve bu verileri model eğitiminde kullanmaz.</p>
+  <p>Bir yanıtı "Bildir" ile işaretlerseniz, o yanıt ve sorunuz incelenmek üzere 90 gün saklanır. Lütfen sorularınızda
+  ad, telefon, adres gibi kişisel bilgiler paylaşmayın. Yapay zekâ yanıtları bilgilendirme amaçlıdır; fetva yerine geçmez.</p>
+
+  <h2>Bildirimler, widget ve sessiz mod</h2>
+  <p>Ezan ve hatırlatma bildirimleri telefonda önceden planlanır; sunucudan bildirim gönderilmez. Ana ekran widget'ı,
+  bildirim çubuğu sayacı ve namaz vaktinde telefonu titreşime alma özellikleri telefonda çalışır ve hiçbir veriyi
+  dışarı göndermez.</p>
+
+  <h2>İzinler</h2>
+  <ul>
+    <li><strong>Konum</strong> (isteğe bağlı): vakit ve kıble hesabı.</li>
+    <li><strong>Bildirim</strong>: ezan ve hatırlatmalar.</li>
+    <li><strong>Alarmlar ve hatırlatıcılar</strong>: bildirimlerin dakikasında gelmesi.</li>
+    <li><strong>İnternet</strong>: Kur'an içeriği, şehir arama, yakın camiler ve Hocam'a Sor.</li>
+    <li><strong>Açılışta çalışma</strong>: telefon yeniden başladığında widget ve hatırlatmaları kurmak.</li>
+  </ul>
+
+  <h2>Çocuklar</h2>
+  <p>Uygulama 13 yaş altındaki çocuklara yönelik olarak tasarlanmamıştır ve bilerek çocuklardan kişisel veri toplamaz.</p>
+
+  <h2>Değişiklikler</h2>
+  <p>Bu politika güncellenirse yeni sürüm bu sayfada, güncelleme tarihiyle birlikte yayımlanır.</p>
+
+  <h2>İletişim</h2>
+  <p>Sorularınız için: <a href="mailto:mogulkocbali@gmail.com">mogulkocbali@gmail.com</a></p>
+
+  <footer>Namaz Hocası · Velaris Labs</footer>
+</main>
+</body>
+</html>
